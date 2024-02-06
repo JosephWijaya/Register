@@ -1,0 +1,95 @@
+body {
+    background-color: #fefefe;
+    padding: 1%;
+}
+
+.container {
+    width: 50%;
+    height: 500px;
+}
+
+.form {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    display: flex;
+    font-size: larger;
+    margin-bottom:1%;
+}
+
+.label {
+    width: 50px;
+    align-self: center;
+    margin-right: 1.5vh;
+}
+
+.inputNama {
+    height: 30px;
+    padding-left: 1%;
+    width: 300px;
+    border: 2px solid #e1e1e1;
+    border-radius: 0.5vh;
+}
+
+.inputUmur {
+    height: 30px;
+    padding-left: 1%;
+    width: 50px;
+    border: 2px solid #e1e1e1;
+    border-radius: 0.5vh;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 0.5vh;
+    width: 75px;
+    background-color: whitesmoke;
+    padding: 0.5vh;
+    margin-bottom: 1%;
+}
+
+.tBody {
+    background: #000;
+    padding: 1%;
+    height: 48%;
+    overflow-y: auto;
+    color: #fff;
+    width: fit-content;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background: #f7f7f7;
+    color: #000;
+    font-size: larger;
+}
+
+.tNumber {
+    width: 50px;
+}
+
+.tText {
+    width: 300px;
+    max-width: 300px;
+}
+
+.tAction {
+    width: 175px;
+}
+
+.tdCenter {
+    text-align: center;
+}
+
+.tdText {
+    padding-left: 2%;
+}
+
+.tdAction {
+    display: flex;
+    justify-content: space-evenly;
+}

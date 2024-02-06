@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="tes.css">
+    <title>Test</title>
+    <script src="tes2.js" defer></script>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="form">
+        <div class="field">
+          <label class="label" for="nama">Nama</label>
+          <input class="inputNama" type="text" id="nama">
+        </div>
+        <div class="field">
+          <label class="label" for="umur">Umur</label>
+          <input class="inputUmur" type="number" id="umur">
+        </div>
+      </div>
+
+      <button class="button" id="button" onclick="handleButton()">Submit</button>
+ 
+      <div class="tBody">
+      <table class="table table-fixed" cellspacing="0" cellpadding="5" border="1">
+	<tbody>
+          <th class="tNumber">No</th>
+          <th class="tText">Nama</th>
+          <th class="tNumber">Umur</th>
+          <th class="tAction">Action</th>
+	</tbody>
+        <tbody id="bodyTable"></tbody>
+      </table>
+      </div>
+    </div>
+
+  </body>
+</html>

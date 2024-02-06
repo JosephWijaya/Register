@@ -1,6 +1,6 @@
 var personId = 1;
-const hasil = document.getElementById('bodyTable')
-const button = document.getElementById('button')
+const hasil = document.getElementById('bodyTable');
+const button = document.getElementById('button');
 let nama = document.getElementById("nama");
 let umur = document.getElementById("umur");
 let selectedID = 0;
@@ -45,7 +45,7 @@ function showData () {
             </td>
         </tr>
         `
-    })
+    });
 }
 
 function updateClicked(id) {
@@ -68,7 +68,7 @@ function updatePerson () {
 
     const index = people.findIndex( function(person){
         return person.id === selectedID
-    })
+    });
 
     people[index] = person;
     
@@ -82,11 +82,11 @@ function updatePerson () {
 function deleteClicked(id) {
     const person = people.find(function(person){
         return person.id === id
-    })
+    });
 
     if(confirm(`Apakah Anda yakin inign menghapus data ${person.nama}`)){
         people = people.filter(function(person){
-            return person.id != id
+            return person.id != id;
         })
     }
     showData();
